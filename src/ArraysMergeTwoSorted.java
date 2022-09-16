@@ -6,7 +6,7 @@
 //Output: arr3[] = {4, 5, 7, 8, 8, 9}
 //
 
-public class MergeTwoSortedArrays {
+public class ArraysMergeTwoSorted {
     public static int[] mergesort(int[] arr1, int[] arr2){ //passing the 2 arguments
         int len1 = arr1.length;  // length of arr1
         int len2 = arr2.length;  // length of arr2
@@ -35,8 +35,8 @@ public class MergeTwoSortedArrays {
         return result;
     }
     public static void main(String[] args){
-        int [] arr1 = {1,4,7,9};
-        int [] arr2 = {3,4,5,6,8};
+        int [] arr1 = {1,4,7,9};        //arr1
+        int [] arr2 = {3,4,5,6,8};      //arr2
         int [] result = mergesort(arr1,arr2);
 
         for(int i = 0; i < result.length; i++){
